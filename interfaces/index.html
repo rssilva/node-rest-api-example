@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/interfacesPage.js"></script>
+	</head>
+	<body>
+		<div id="request-data">
+			<label>Type</label>
+			<select id="req-type" >
+				<option value="GET">GET</option>
+				<option value="POST">POST</option>
+				<option value="PUT">PUT</option>
+				<option value="DELETE">DELETE</option>
+			</select>
+
+			<div id="url-container" class="">
+				<label>url</label>
+				<input type="text" id="url">
+			</div>
+
+			<div id="data-container" class="display-none">
+				<textarea></textarea>
+			</div>
+			<button id="button">Go!</button>
+		</div>
+		<div id="result"></div>
+	</body>
+</html>
